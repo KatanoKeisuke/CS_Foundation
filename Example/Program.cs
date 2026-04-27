@@ -4,9 +4,12 @@ static class Program
 {
     static void Main(string[] args)
     {
-       int quantity = 5;
-       int price = 5;
-       int total = quantity * price;
-       System.Console.WriteLine(total);
+        int a = 5;
+        int b = 2;
+        float c = (float)a / b;
+         System.Console.WriteLine(c);
     }
+
+
+   
 }
